@@ -7,7 +7,7 @@ OUTDIR="./vsix"
 
 mkdir -p "$OUTDIR"
 
-for i in $(seq 1 185); do
+for i in $(seq 186 187); do
   VER="0.0.$i"
   FILE="$OUTDIR/${PUBLISHER}.${NAME}-${VER}.vsix"
   if [[ -f "$FILE" ]]; then
